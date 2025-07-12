@@ -83,15 +83,15 @@ const CasilleroVirtual = () => {
       id: 3,
       icon: Package,
       title: "Crea orden de envío",
-      description: "Te notificaremos cuando tus compras lleguen al casillero virtual para que puedas indicarnos cómo prefieres realizar el envío a Colombia.",
+      description: "Te notificaremos cuando tus compras lleguen al casillero virtual para que puedas indicarnos cómo prefieres realizar el envío a Perú.",
       color: "from-teal-500 to-green-500",
       delay: "400ms"
     },
     {
       id: 4,
       icon: CheckCircle,
-      title: "Recibe en Colombia",
-      description: "Recibe tu envío de 3 a 7 días hábiles en la dirección que nos indiques en cualquier parte de Colombia.",
+      title: "Recibe en Perú",
+      description: "Recibe tu envío de 3 a 7 días hábiles en la dirección que nos indiques en cualquier parte de Perú.",
       color: "from-green-500 to-emerald-500",
       delay: "600ms"
     }
@@ -107,7 +107,7 @@ const CasilleroVirtual = () => {
     {
       icon: Clock,
       title: "Entrega Rápida",
-      description: "3-7 días hábiles a Colombia",
+      description: "3-7 días hábiles a Perú",
       color: "text-green-500"
     },
     {
@@ -318,7 +318,7 @@ const CasilleroVirtual = () => {
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Con tu Casillero Virtual <strong>tendrás una dirección física en Miami</strong> a la que{' '}
               <strong>puedes enviar tus compras en línea</strong> y luego son reenviadas a{' '}
-              <strong>tu dirección en Colombia.</strong>
+              <strong>tu dirección en Perú.</strong>
             </p>
           </div>
 
@@ -382,7 +382,7 @@ const CasilleroVirtual = () => {
                   <div className="absolute bottom-4 left-4 w-16 h-16 bg-secondary/20 rounded-full animate-pulse delay-500"></div>
                 </div>
 
-                {/* Miami to Colombia Visual */}
+                {/* Miami to Perú Visual */}
                 <div className="relative z-10 text-center">
                   <div className="flex items-center justify-between mb-8">
                     <div className="text-center">
@@ -405,7 +405,7 @@ const CasilleroVirtual = () => {
                       <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-red-500 rounded-full flex items-center justify-center mb-4 mx-auto shadow-lg">
                         <span className="text-white font-bold text-lg">🇨🇴</span>
                       </div>
-                      <p className="font-semibold text-gray-900">Colombia</p>
+                      <p className="font-semibold text-gray-900">Perú</p>
                       <p className="text-sm text-gray-600">Tu hogar</p>
                     </div>
                   </div>
@@ -538,7 +538,7 @@ const CasilleroVirtual = () => {
               Compra en las mejores tiendas de Estados Unidos como{' '}
               <strong className="text-primary">Amazon, Macy's, Apple Store, Walmart</strong>{' '}
               y muchas más con tu dirección en Miami, y recibe tus paquetes en{' '}
-              <strong className="text-secondary">Colombia</strong> rápido, seguro y a bajo costo con{' '}
+              <strong className="text-secondary">Perú</strong> rápido, seguro y a bajo costo con{' '}
               <strong className="text-gray-900">FirstClass Casillero Virtual.</strong>
             </p>
           </div>
@@ -916,7 +916,7 @@ const CasilleroVirtual = () => {
               ¿Listo para comenzar?
             </h2>
             <p className="text-xl lg:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
-              Únete a miles de colombianos que ya disfrutan de las mejores compras desde Estados Unidos
+              Únete a miles de Peruanos que ya disfrutan de las mejores compras desde Estados Unidos
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">

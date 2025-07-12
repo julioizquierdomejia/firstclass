@@ -63,6 +63,7 @@ const TiendasDisponibles = () => {
     return () => observerRef.current?.disconnect();
   }, []);
 
+  
   const categories = [
     { id: 'all', name: 'Todas las tiendas', icon: ShoppingBag, color: 'from-primary to-secondary', count: 0 },
     { id: 'fashion', name: 'Moda & Accesorios', icon: Shirt, color: 'from-pink-500 to-rose-500', count: 0 },
@@ -709,6 +710,7 @@ const TiendasDisponibles = () => {
       </section>
 
       {/* Stores Grid */}
+
       <section id="stores-section" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Active Category Header */}
@@ -726,6 +728,7 @@ const TiendasDisponibles = () => {
                   {searchTerm && ` para "${searchTerm}"`}
                 </p>
               </div>
+              
               
               {/* Quick Filter Buttons */}
               <div className="hidden lg:flex items-center space-x-2">
