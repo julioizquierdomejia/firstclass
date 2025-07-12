@@ -26,7 +26,7 @@ const Benefits = () => {
     {
       icon: MapPin,
       title: "Cobertura nacional",
-      description: "Entregamos en todas las principales ciudades de Colombia y Ecuador"
+      description: "Entregamos en todas las principales ciudades de Perú"
     },
     {
       icon: Headphones,
